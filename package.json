@@ -1,0 +1,44 @@
+{
+  "name": "scraperboy",
+  "version": "0.0.1",
+  "description": "Utility for downloading webpages for offline use.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieronymous-bean/scraperboy.git"
+  },
+  "keywords": [
+    "scraperboy",
+    "scraper"
+  ],
+  "author": "hieronymous-bean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hieronymous-bean/scraperboy/issues"
+  },
+  "homepage": "https://github.com/hieronymous-bean/scraperboy#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^8.1.1",
+    "css-loader": "^5.2.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.4.1",
+    "postcss": "^8.2.10",
+    "postcss-loader": "^5.2.0",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "^2.1.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
